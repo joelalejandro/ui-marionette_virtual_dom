@@ -1,0 +1,56 @@
+{
+  "name": "ui-marionette_virtual_dom",
+  "version": "0.0.1",
+  "description": "Adds support for DOM diffing/patching to Marionette views.",
+  "main": "dist/marionette.virtual-dom.js",
+  "scripts": {
+    "test": "mocha",
+    "dist": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercadolibre/ui-marionette_virtual_dom.git"
+  },
+  "keywords": [
+    "marionette",
+    "backbone",
+    "rendering",
+    "virtual-dom",
+    "diff",
+    "patch"
+  ],
+  "engines": {
+    "node": "6.9.1"
+  },
+  "author": "Joel A. Villarreal Bertoldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mercadolibre/ui-marionette_virtual_dom/issues"
+  },
+  "homepage": "https://github.com/mercadolibre/ui-marionette_virtual_dom#readme",
+  "peerDependencies": {
+    "backbone.marionette": "~2.4.0",
+    "underscore": "1.8.3"
+  },
+  "dependencies": {
+    "vdom-virtualize-redist": "^2.0.0-1",
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-preset-env": "1.6.0",
+    "chai": "4.0.2",
+    "eslint": "3.10.1",
+    "eslint-config-airbnb": "13.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.7.1",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "javascript-style-guide": "0.2.0-alpha.2",
+    "jquery": "2.2.1",
+    "jsdom": "7.0.2",
+    "mocha": "3.4.2",
+    "mocha-jsdom": "1.1.0"
+  }
+}
